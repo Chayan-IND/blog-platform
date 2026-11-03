@@ -1,0 +1,30 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; background: #f4f6f8; color: #222; }
+a { color: #2563eb; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+.navbar { display: flex; justify-content: space-between; align-items: center; padding: 12px 24px; background: #1e293b; }
+.navbar a, .navbar span { color: #fff; }
+.brand { font-size: 20px; font-weight: bold; }
+.nav-links { display: flex; gap: 16px; align-items: center; }
+
+.container { max-width: 760px; margin: 24px auto; padding: 0 16px; min-height: 70vh; }
+.footer { text-align: center; padding: 16px; color: #666; font-size: 14px; }
+
+.card, .comment { background: #fff; padding: 16px; border-radius: 8px; margin-bottom: 14px; box-shadow: 0 1px 3px rgba(0,0,0,.1); }
+.card h2 { margin: 0 0 6px; }
+.meta { color: #666; font-size: 14px; margin: 4px 0; }
+.content { background: #fff; padding: 16px; border-radius: 8px; white-space: pre-wrap; line-height: 1.6; }
+.comment p { margin: 4px 0; white-space: pre-wrap; }
+
+.form { display: flex; flex-direction: column; gap: 12px; margin: 16px 0; }
+input, textarea { padding: 10px; border: 1px solid #cbd5e1; border-radius: 6px; font-size: 15px; font-family: inherit; }
+
+button { background: #2563eb; color: #fff; border: none; padding: 10px 16px; border-radius: 6px; cursor: pointer; font-size: 14px; }
+button:hover { opacity: .9; }
+.navbar button { background: #475569; }
+button.danger { background: #dc2626; }
+button.small { padding: 4px 10px; font-size: 12px; }
+
+.actions { display: flex; gap: 14px; align-items: center; margin: 14px 0; }
+.error { color: #dc2626; }
