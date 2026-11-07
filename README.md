@@ -94,6 +94,8 @@ Protected routes need the header `Authorization: Bearer <token>`.
 
 ## Live Links
 
-- Frontend: _add after deployment_
-- Backend: _add after deployment_
-- GitHub: _add your repo link_
+- Live website: https://dazzling-caramel-c77ff2.netlify.app
+- Backend API: https://blog-platform-w6os.onrender.com
+- GitHub repository: https://github.com/Chayan-IND/blog-platform
+
+Note: The backend runs on a free plan, so the first request after a break can take up to a minute.
